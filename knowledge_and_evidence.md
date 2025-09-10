@@ -70,25 +70,25 @@ python3 main.py
 
    | Type                    | name       | value          |
    | ----------              | ---------- | -------------- |
-   | built-in primitive type | _          |  _             |
-   | built-in composite type | _          |  _             |
-   | user-defined type       | _          |  _             |
+   | built-in primitive type | 'numerical'| '255'          |
+   | built-in composite type | 'numerical'| '255'          |
+   | user-defined type       | 'numerical'| '0'            |
 
 2. Fill in (`_`) the following table based on the code in `smiley.py`:
 
    | Object                   | Type                    |
    | ------------             | ----------------------- |
-   | self.pixels              | _                       |
-   | A member of self.pixels  | _                       |
-   | self                     | _                       |
+   | self.pixels              | 'array'                 |
+   | A member of self.pixels  | 'Y'                     |
+   | self                     | 'text'                  |
 
 3. Examine the code for `smiley.py`, `sad.py`, and `happy.py`. Give an example of each of the following control structures using an example from **each** of these files. Include the first line and the line range:
 
    | Control Flow | File       | First line  | Line range  |
    | ------------ | ---------- | ----------- | ----------- |
-   |  sequence    |  _         | _           | _           |
-   |  selection   | _          | _           | _           |
-   |  iteration   | _          | _           | _           |
+   |  sequence    | 'happy'    | 'def'       | "to -15"    |
+   |  selection   | 'happy'    | 'def'       | "20-25"     |
+   |  iteration   | 'sad'      | 'for'       | '20-35'     |
 
 4. Though everything in Python is an object, it is sometimes said to have four "primitive" types. Examining the three files `smiley.py`, `sad.py`, and `happy.py`, identify which of the following types are used in any of these files, and give an example of each (use an example from the code, if applicable, otherwise provide an example of your own):
 
@@ -108,19 +108,19 @@ python3 main.py
    1. What is the purpose of a constructor (in general) and this one (in particular)?
 
    > Your answer here
-   >
+   >"draw a smile"
 
    2. What statement(s) does it execute (consider the `super` call), and what is the result?
 
    > Your answer here
-   >
+   > "call the function"
 
 ### 2.3. Code style
 
 1. What code style is used in the code? Is it likely to be the same as the code style used in the SenseHat? Give to reasons as to why/why not:
 
 > Your answer here
->
+> "sequence and iteration"
 
 2. List three aspects of this convention you see applied in the code.
 
