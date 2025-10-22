@@ -1,10 +1,10 @@
-from abc import ABC, abstractmethod
+#from abc import ABC, abstractmethod
 
 
-class Blinkable(ABC):
+class Blinkable:#(ABC):
     """
     Specify what anything that claims to be 'blinkable' should be able to do.
     """
-    @abstractmethod
+#    @abstractmethod
     def blink(self):
         pass
